@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EnderCon Details & Registration</title>
+</head>
+
+<body>
+
+<header>
+    <h1>EnderCon Details & Registration</h1>
+<nav>
+    <a href="#details">Details</a>
+    <a href="#registration">Registration</a>
+</nav>
+</header>
+
+<main>
+<section id="details"><h2>Event Details</h2>
+<ul>
+<li>Oct. 13th 2028</li>
+<li>10:00 AM - 5:00 PM</li>
+<li>EnderCon Stadium</li>
+<li>$10 per person</li>
+</ul>
+<p>EnderCon is an annual convention with various activities to do throughout the day, including a building contest, meet & greet, and multiple venues.</p>
+<img src="https://i.redd.it/f9haaaap9ipg1.jpg" width="300" height="200" alt="EnderCon Event">
+</section>
+</main>
+
+<section id="registration">
+    <h2>Registration</h2>
+    <form>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone:</label>
+<input
+  type="tel"
+  id="phone"
+  name="phone"
+  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+  required />
+<br>
+<br>
+        <legend>Allergy List</legend>
+    <input type="checkbox" id="peanuts" name="peanuts"/>
+    <label for="peanuts">Peanuts</label>
+    <div></div>
+        <input type="checkbox" id="shrimp" name="shrimp"/>
+    <label for="shrimp">Shrimp</label>
+    <div></div>
+        <input type="checkbox" id="gluten" name="gluten"/>
+    <label for="gluten">Gluten</label>
+<br>
+<br>
+    <legend>Admission</legend>
+    <input type="radio" id="general" name="admission" value="general"/>
+    <label for="general">General</label>
+<br>
+    <input type="radio" id="builder" name="admission" value="builder"/>
+    <label for="builder">Builder</label>
+<br>
+    <input type="radio" id="vip" name="admission" value="vip"/>
+    <label for="vip">VIP</label>
+<br>
+<br>
+<label for="pet-select">T-Shirt Size:</label>
+<br>
+<select name="pets" id="pet-select">
+  <option value="">Please choose an option</option>
+  <option value="dog">XS</option>
+  <option value="cat">S</option>
+  <option value="hamster">M</option>
+  <option value="parrot">L</option>
+  <option value="spider">XL</option>
+  <option value="goldfish">XXL</option>
+</select>
+<br>
+<br>
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2013 EnderCon. All rights reserved.</p>
+</footer>
+</body>
+</html>
